@@ -4,8 +4,9 @@ ArthaVittya is a personalized learning assistant for finance and economics conce
 
 Built with **Streamlit** and **GPT-OSS-20b** via Hugging Face Inference API.
 
-## Live Demo
-Coming soon...
+## 🚀 Live Demo
+Try ArthaVittya here: https://arthavittya-yvu7mictwcfmtmxjsqwhyk.streamlit.app/
+
 
 ## How to Run Locally
 1. Clone the repo  
