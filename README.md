@@ -2,7 +2,7 @@
 
 ArthaVittya is a personalized learning assistant for finance and economics concepts. It adapts explanations to match individual learning styles, which include visual, logical, auditory, and more.
 
-Built with **Streamlit** and **GPT-OSS** via Hugging Face Inference API.
+Built with **Streamlit** and **GPT-OSS-20b** via Hugging Face Inference API.
 
 ## Live Demo
 Coming soon...
