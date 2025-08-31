@@ -5,7 +5,7 @@ import requests
 from dotenv import load_dotenv
 load_dotenv()
 
-API_TOKEN = os.getenv("HF_TOKEN")
+API_TOKEN = st.secrets.get("HUGGINGFACE_API_TOKEN") or os.getenv("HF_TOKEN")
 
 # Initialize session state
 if "explanation" not in st.session_state:
@@ -213,3 +213,4 @@ if show_tips:
         style_tips = generate_style_tips(styles, topic, custom_analogy)
         st.subheader("🧠 Learning Tips Based on Your Style")
         st.write(style_tips)
+
