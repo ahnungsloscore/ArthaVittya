@@ -94,7 +94,7 @@ Dive deep into the mechanics. Use sensory metaphors (for visual/kinesthetic lear
 **3. Real-World Example**  
 Paint a vivid scenario that shows the concept in action. Use a story, situation, or simulation that the learner can visualize or relate to. Make it feel tangible.
 
-**4. Real-World Case study or a cool fact
+**4. Real-World Case study or a cool fact**
 
 **5. Takeaway**  
 End with a memorable insight or summary that reinforces understanding. Use repetition, metaphor, or a punchy phrase that sticks.
@@ -122,11 +122,19 @@ def generate_style_tips(styles, topic, analogy=None, simplify =False, format_cho
        prompt = f"""
 You are a personalized learning assistant. A user is about to learn about "{topic}" and has selected the following learning styles: {style_list}.
 
-Your task is to generate , engaging tips that help the user absorb the finance or economics concepts explanation more effectively based on those styles.
+Your task is to generate engaging tips that help users absorb the explanation of finance or economics concepts more effectively, based on those styles.
 
 Use a warm, encouraging tone. Speak directly to the learner. Make each tip feel like a personal suggestion from a mentor who understands their style.
 
 Use clear, encouraging language. Include sensory cues, metaphors, or strategies that align with each style. If the user provided an analogy, incorporate it creatively: "{analogy}".
+"""
+    else:
+        prompt = f"""
+You are a financial learning assistant. A user is exploring the topic "{topic}" using the following learning styles: {style_list}.
+
+Generate personalized tips to help them absorb the concept more effectively. Use a supportive tone and include strategies, metaphors, or sensory cues that match each style.
+
+If the user provided an analogy, include it: "{analogy}".
 """
     return query_gpt_oss(prompt)
 
@@ -154,7 +162,7 @@ def get_style_guidance(styles):
         return f"Use {phrases[0]} to match the learner’s style."
     else:
         last = phrases.pop()
-        combined = ", ".join(phrases)
+        combined = ", ".join(phrases) 
         return f"Blend {combined}, and {last} to match the learner’s selected styles."
 
 
@@ -213,4 +221,5 @@ if show_tips:
         style_tips = generate_style_tips(styles, topic, custom_analogy)
         st.subheader("🧠 Learning Tips Based on Your Style")
         st.write(style_tips)
+
 
