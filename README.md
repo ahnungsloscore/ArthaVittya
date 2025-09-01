@@ -46,12 +46,12 @@ Create a `.env` file with your Hugging Face token
   
 ## Tech Stack
 **Core**
--Python
--Streamlit
+- Python
+- Streamlit
 **Environment & Config**
--dotenv
--Hugging Face GPT-OSS
--requests
+- dotenv
+- Hugging Face GPT-OSS
+- requests
 
 ## 🎥 Demo Video
 Watch the full walkthrough here: [https://youtu.be/vAyN61QSw_E]
