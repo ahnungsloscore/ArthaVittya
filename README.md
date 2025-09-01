@@ -59,7 +59,7 @@ Create a `.env` file with your Hugging Face token
 - requests
 
 ## 🎥 Demo Video
-Watch the full walkthrough here: [https://youtu.be/vAyN61QSw_E]
+Watch the full walkthrough here: [(https://youtu.be/l_6X-y0Y7WE)]
 
 ## Contributing 🤝
 Feel free to fork, clone, or suggest improvements. Feedback is always welcome!
