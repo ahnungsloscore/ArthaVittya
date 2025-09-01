@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="ArthaVittya Logo" width="200"/>
+</p>
+
 # ArthaVittya
 
 ArthaVittya is a personalized learning assistant for finance and economics concepts. It adapts explanations to match individual learning styles, which include visual, logical, auditory, and more.
