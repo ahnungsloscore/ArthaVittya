@@ -48,6 +48,7 @@ Create a `.env` file with your Hugging Face token
 **Core**
 - Python
 - Streamlit
+  
 **Environment & Config**
 - dotenv
 - Hugging Face GPT-OSS
