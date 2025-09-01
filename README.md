@@ -10,7 +10,10 @@ Try ArthaVittya here: https://arthavittya-yvu7mictwcfmtmxjsqwhyk.streamlit.app/
 
 ## How to Run Locally
 1. Clone the repo  
-2. Create a `.env` file with your Hugging Face token  
+2. 🔐 This app uses a `.env` file to store API credentials securely.
+To run locally, create a `.env` file with the following format:
+HUGGINGFACE_API_TOKEN=your_token_here
+Create a `.env` file with your Hugging Face token  
 3. Run `streamlit run app.py`
 
 ## License
