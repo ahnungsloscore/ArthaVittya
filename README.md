@@ -5,7 +5,7 @@
 # ArthaVittya
 
 ArthaVittya is a personalized learning assistant for finance and economics concepts. It adapts explanations to match individual learning styles, which include visual, logical, auditory, and more.
-
+The name ArthaVittya combines “Artha” (meaning wealth or purpose in Sanskrit) and “Vittya” (meaning finance), reflecting the app’s mission: to make financial understanding purposeful, personal, and accessible to all.
 Built with **Streamlit** and **GPT-OSS-20b** via Hugging Face Inference API.
 
 ## 🚀 Live Demo
